@@ -1,7 +1,2 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Project.create!(title: "Daily Pitches", link: "http://dailypitches.herokuapp.com", description: "Fastest pitch from MLB")
+Project.create!(title: "Art @t Random", link: "http://artatrandom.herokuapp.com", description: "Random artwork from the Brooklyn Museum")
