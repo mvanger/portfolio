@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  background-color: black;
+}
+
+#navbar-top {
+  height: 5%;
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+}
+
+div {
+  height: 100%;
+}
+
+#page-top {
+  height: 95%;
+  background-color: #0000A0;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+#about {
+  height: 50%;
+  background-color: #FDD017;
+  color: #0000A0;
+}
+
+#about h2 {
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+#about-left {
+  float: left;
+  width: 33%;
+  text-align: justify;
+  padding-left: 7%;
+  padding-right: 10%;
+  padding-top: 2.5%;
+}
+
+#about-right {
+  float: right;
+  width: 33%;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 7%;
+  padding-top: 2.5%;
+}
+
+#contact {
+  height: 50%;
+  background-color: #0000A0;
+  color: white;
+  text-align: center;
+}
+
+.project {
+  height: 50%;
+  background-color: #4B0082;
+  color: white;
+}
+
+.project a {
+  color: white;
+}
+
+.project-left {
+  float: left;
+  width: 40%;
+}
+
+.project-center {
+  float: center;
+  width: 20%;
+}
+
+.project-right {
+  float: right;
+  width: 40%;
+}

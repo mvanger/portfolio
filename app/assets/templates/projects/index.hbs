@@ -1,7 +1,23 @@
-<h1>Hello World</h1>
-
 {{#each collection.models }}
-  <p>Title: {{ attributes.title }}</p>
-  <a href="{{ attributes.link }}">LINK</a>
-  <p>{{ attributes.description }}</p>
+  <div class="project">
+    <span class="project-left">
+      <h2>
+          {{ attributes.title }}
+      </h2>
+      <p>
+        <a href="{{ attributes.link }}">
+          {{ attributes.link }}
+        </a>
+      </p>
+      <p>{{ attributes.description }}</p>
+    </span>
+    <span class="project-center">
+      <img src="assets/daily_pitches_1.png" width=8% /></br>
+      <img src="assets/daily_pitches_2.png" width=8% /></br>
+      <img src="assets/daily_pitches_3.png" width=8% />
+    </span>
+    <span class="project-right">
+      <img src="assets/daily_pitches_1.png" width=70% />
+    </span>
+  </div>
 {{/each}}
