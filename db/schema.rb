@@ -17,8 +17,11 @@ ActiveRecord::Schema.define(:version => 20130819005203) do
     t.string   "title"
     t.string   "link"
     t.string   "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "first_image"
+    t.string   "second_image"
+    t.string   "third_image"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
 end

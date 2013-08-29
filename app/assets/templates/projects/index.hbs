@@ -12,12 +12,12 @@
       <p>{{ attributes.description }}</p>
     </span>
     <span class="project-center">
-      <img src="assets/daily_pitches_1.png" width=8% /></br>
-      <img src="assets/daily_pitches_2.png" width=8% /></br>
-      <img src="assets/daily_pitches_3.png" width=8% />
+      <img src="{{ attributes.first_image }}" width=55% class="image-thumbnail"/></br>
+      <img src="{{ attributes.second_image }}" width=55% class="image-thumbnail"/></br>
+      <img src="{{ attributes.third_image }}" width=55% class="image-thumbnail"/>
     </span>
     <span class="project-right">
-      <img src="assets/daily_pitches_1.png" width=70% />
+      <img src="{{ attributes.first_image }}" width=100% class="big-image" />
     </span>
   </div>
 {{/each}}

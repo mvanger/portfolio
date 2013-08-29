@@ -4,6 +4,9 @@ class CreateProjects < ActiveRecord::Migration
       t.string :title
       t.string :link
       t.string :description
+      t.string :first_image
+      t.string :second_image
+      t.string :third_image
 
       t.timestamps
     end

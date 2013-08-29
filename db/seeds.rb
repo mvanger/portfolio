@@ -1,2 +1,2 @@
-Project.create!(title: "Daily Pitches", link: "http://dailypitches.herokuapp.com", description: "Fastest pitch from MLB")
-Project.create!(title: "Art @t Random", link: "http://artatrandom.herokuapp.com", description: "Random artwork from the Brooklyn Museum")
+Project.create!(title: "Daily Pitches", link: "http://dailypitches.herokuapp.com", description: "Fastest pitch from MLB", first_image: "assets/daily_pitches_1.png", second_image: "assets/daily_pitches_2.png", third_image: "assets/daily_pitches_3.png")
+Project.create!(title: "Art @t Random", link: "http://artatrandom.herokuapp.com", description: "Random artwork from the Brooklyn Museum", first_image: "assets/art_at_random_1.png", second_image: "assets/art_at_random_2.png", third_image: "assets/art_at_random_3.png")
