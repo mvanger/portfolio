@@ -3,5 +3,5 @@ Portfolio::Application.routes.draw do
    resources :projects
   end
 
-  root to: 'main#index'
+  root :to => 'main#index'
 end
